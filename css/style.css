@@ -1,0 +1,26 @@
+:root{
+    --text-color: #0B0D10;
+    --bg-color: #f0f0f0;
+    --accent-color: #e72f6c;
+    --title-fontd: "cc-lol?";
+    --text-font: "Roboto", sans-serif;
+}
+body {
+    font-family: var(--text-font);
+    background-color: pink;
+    color: black;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+ main{
+    color:aquamarine;
+ }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "tumba-variable", sans-serif;
+font-variation-settings: "wght" 300;
+font-size: 80px; 
+}
