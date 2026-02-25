@@ -2,13 +2,19 @@
     --text-color: #0B0D10;
     --bg-color: #f0f0f0;
     --accent-color: #e72f6c;
-    --title-fontd: "cc-lol?";
+    --title-font: "cc-lol?";
     --text-font: "Roboto", sans-serif;
 }
+
+html {
+    font-size: 100%; /* 100% - 1rem base del sistema */ 
+}
+
 body {
     font-family: var(--text-font);
-    background-color: pink;
-    color: black;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1.5rem; /* cambio global */
 }
 
 a {
@@ -16,11 +22,22 @@ a {
 }
 
  main{
-    color:aquamarine;
+    color:rgb(217, 127, 255);
  }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "tumba-variable", sans-serif;
-font-variation-settings: "wght" 300;
-font-size: 80px; 
+    font-variation-settings: "wght" 300;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 1.5em;
 }
